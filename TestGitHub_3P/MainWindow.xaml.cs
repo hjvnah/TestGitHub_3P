@@ -20,5 +20,10 @@ namespace TestGitHub_3P
         {
             InitializeComponent();
         }
+
+        private void nazwa_Click(object sender, RoutedEventArgs e)
+        {
+            nazwa.Content = "OK";
+        }
     }
 }
